@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+			h2 {
+		color: #333;
+		font-size: 36px;
+		font-weight: bold;
+		margin-top: 50px;
+		}
+		
+		form {
+			margin-top: 50px;
+		}
+		
+		label {
+			display: inline-block;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		
+		input[type=text], input[type=password] {
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+			width: 300px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+		
+		button[type=submit], input[type=reset], input[type=button] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		
+		button[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+			background-color: #45a049;
+		}
+		
+		a {
+			color: #666;
+			font-size: 16px;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: #333;
+		}
+	</style>
+	</head>
+	<body>
+	<h2>REGISTER</h2>
+	<form action="newest.html">
+		<table>
+		<tr>
+			<td><label for="first-name">First Name:</label></td>
+			<td><input type="text" id="first-name" name="first-name"></td>
+		</tr>
+
+		<tr>
+			<td><label for="last-name">Last Name:</label></td>
+			<td><input type="text" id="last-name" name="last-name"></td>
+		</tr>
+
+		<tr>
+			 <td><label for="gender">Gender:</label></td>
+		 	<td>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+			</td>
+		</tr>
+
+		<tr>
+		  <td><label for="address-1">Address 1:</label></td>
+		  <td><input type="text" id="address-1" name="address-1"></td>
+		</tr>
+
+		<tr>
+		  <td><label for="address-2">Address 2:</label></td>
+		  <td><input type="text" id="address-2" name="address-2"></td>
+		</tr>
+
+		<tr>
+		  <td><label for="city">City:</label></td>
+		  <td><input type="text" id="city" name="city"></td>
+		</tr>
+
+		<tr>
+		  <td><label for="state">State:</label></td>
+		  <td>
+			<select id="state" name="state">
+			<option value="Select State">Select State</option>
+			  <option value="Perlis">Perlis</option>
+			  <option value="Kedah">Kedah</option>
+			  <option value="Pulau Pinang">Pulau Pinang</option>
+			  <option value="Selangor">Selangor</option>
+			  <option value="Sabah">Sabah</option>
+			  <option value="Sarawak">Sarawak</option>
+			  <option value="Negeri Sembilan">Negeri Sembilan</option>
+			  <option value="Kelantan">Kelantan</option>
+			  <option value="Johor">Johor</option>
+			  <option value="Terengganu">Terengganu</option>
+			  <option value="Melaka">Melaka</option>
+			  <option value="Perak">Perak</option>
+			  <option value="Pahang">Pahang</option>
+			  <option value="Wilayah Persekutuan">Wilayah</option>
+			</select>
+		</td>
+		</tr>
+
+		<tr>
+		  <td><label for="phonenumber">Phone Number:</label></td>
+		  <td><input type="Telephone" id="phonenumber" name="phonenumber"></td>
+		</tr>
+
+		<tr>
+		  <td><label for="email">Email Address:</label></td>
+		  <td><input type="email" id="email" name="email"></td>
+		</tr>
+
+		<tr>
+		  <td><label for="edu-background">Educational Background:</label></td>
+		  <td>
+			<input type="checkbox" id="spm" name="educationbackground" value="spm">
+			<label for="spm">SPM</label>
+			<input type="checkbox" id="Matriculation/Foundation" name="educationbackground" value="matrix/founda">
+			<label for="matrix/founda">Matricluation/Foundation</label>
+			<input type="checkbox" id="diploma" name="educationbackground" value="diploma">
+			<label for="diploma">Diploma</label>
+			<input type="checkbox" id="degree" name="educationbackground" value="degree">
+			<label for="degree">Degree</label>
+			<input type="checkbox" id="master" name="educationbackground" value="master">
+			<label for="master">Master</label>
+			<input type="checkbox" id="phd" name="educationbackground" value="phd">
+			<label for="phd">PhD</label>
+		  </td>
+		</tr>
+
+		<tr>
+		  <td><label for="username">Username:</label></td>
+		  <td><input type="text" id></td>
+		</tr>
+		
+		<tr>
+		  <td><label for="password">Password:</label></td>
+		  <td><input type="password" id="password" name="password"></td>
+		</tr>
+
+		<tr>
+		  <td><label for="confirm-password">Re-enter Password:</label></td>
+		  <td><input type="password" id="confirm-password" name="confirm-password"></td>
+		  <br>
+				<button onclick="window.location.href='newest.html'">Submit</button>
+				<input type="reset" value="Clear">
+		  </br>
+		</tr>
+
+		</form>
+	</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		h2 {
+			color: #333;
+			font-size: 36px;
+			font-weight: bold;
+			margin-top: 50px;
+		}
+		form {
+			margin-top: 50px;
+		}
+		label {
+			display: inline-block;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		input[type=text], input[type=password] {
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+			width: 300px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+		input[type=submit], input[type=reset], input[type=button] {
+			background-color: #007bff;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+			background-color: #45a049;
+		}
+		a {
+			color: #666;
+			font-size: 16px;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<h2>Login</h2>
+	<form>
+		<label for="Uname">Username:</label>
+		<input type="text" id="Uname" name="Uname" required>
+		<br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<br>
+		<input type="submit" value="Submit" onclick="window.location.href='newest.html'">
+		<input type="reset" value="Clear">
+		<input type="button" value="Cancel" onclick="window.location.href='newest.html'">
+		<br>
+	</form>
+</body>
+</html>

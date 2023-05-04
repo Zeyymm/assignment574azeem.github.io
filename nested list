@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>List can be nested </h1>
+
+<dt>
+	<dt>Coffee</dt>
+	<dt>Tea</dt>
+		<dd>-Black tea</dd>
+		<dd>-Green tea</dd>
+	<dt>Milk</dt>
+		<dd>Scimmed milk</dd>
+		<dd>Full cream milk </dd>
+		<ol>
+		<li>Strawberry</li>
+		<li>Chocolate</li>
+		<li>Dates</li>
+		</ol>
+</body>
+</html>
+	
+	

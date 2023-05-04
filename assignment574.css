@@ -1,0 +1,59 @@
+.Content{
+text-align:center;
+}
+
+.header{
+width: 100%;
+text-align: center;
+margin: auto;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: 1.5rem;
+}
+		/* Basic CSS for menu */
+		ul.menu {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+
